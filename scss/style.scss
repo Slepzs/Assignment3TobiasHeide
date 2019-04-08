@@ -1,8 +1,18 @@
+/* Bootstrap necessaries */
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/mixins';
 @import 'bootstrap/scss/reboot';
 
+
+/* Bootstrap components that i use */
 @import 'bootstrap/scss/grid';
 @import 'bootstrap/scss/jumbotron';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/dropdown';
+@import 'bootstrap/scss/card';
+
+/* Custom */
 @import 'bootstrap/customstyles/mymixins';
+@import 'bootstrap/customstyles/myvariables';

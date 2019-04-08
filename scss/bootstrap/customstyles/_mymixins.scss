@@ -5,3 +5,30 @@
 @mixin my-gradient {
     background: linear-gradient($brand-secondary, white);
 }
+
+
+
+@mixin my-padding {
+    padding: $padding-one;
+}
+
+
+@mixin my-margin {
+   margin: $margin-one;
+}
+
+
+@mixin themebuttons {
+    border: $btns-one;
+    background: $brand-third;
+    color: $white;
+    border-radius: $border-radius-one;
+    padding: $padding-two;
+}
+
+
+@mixin fixed-width-center {
+    margin: $marginzero;
+    width: $widtheightty;
+    text-align: $textcenter;
+}

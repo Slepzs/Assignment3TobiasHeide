@@ -7,3 +7,20 @@
 .jumbotron {
     @include my-gradient;
 }
+
+.navbar {
+    background-color: $brand-primary;
+    color: $brand-third;
+    &:active {
+        color: $brand-secondary;
+    }
+}
+
+
+.mybtn {
+    @include themebuttons;
+}
+
+.card {
+    @include fixed-width-center;
+}
