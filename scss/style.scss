@@ -4,15 +4,24 @@
 @import 'bootstrap/scss/mixins';
 @import 'bootstrap/scss/reboot';
 
+@import "utilities/display";
+@import "utilities/flex";
+@import "utilities/spacing";
+
+/**/
 
 /* Bootstrap components that i use */
 @import 'bootstrap/scss/grid';
 @import 'bootstrap/scss/jumbotron';
-@import 'bootstrap/scss/navbar';
 @import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/navbar';
 @import 'bootstrap/scss/dropdown';
 @import 'bootstrap/scss/card';
+@import 'bootstrap/scss/list-group';
+@import 'bootstrap/scss/carousel';
+@import 'bootstrap/scss/breadcrumb';
 
 /* Custom */
 @import 'bootstrap/customstyles/mymixins';
 @import 'bootstrap/customstyles/myvariables';
+@import 'bootstrap/customstyles/myfunctions';
